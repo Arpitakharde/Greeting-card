@@ -32,5 +32,6 @@ h1{
 
 .card-section {
     background-color: #f7f4f4;
-    
+    padding: 2em;
+    margin-bottom: 20px;
 }
