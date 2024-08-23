@@ -50,3 +50,9 @@ h2{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.card {
+    margin: 20px;
+    width: 210px;
+    height:300px;
+}
