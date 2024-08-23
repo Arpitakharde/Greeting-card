@@ -88,3 +88,17 @@ button{
 button:hover {
     box-shadow:2px 2px 4px #df9fbf;
 }
+
+.footer-bottom {
+    background-color:#bfbfbf;
+    color: #b30047;
+    padding: 3px 0;
+    text-align: center;
+    height:120px;
+    width:100%;
+  }
+  
+.footer-bottom p {
+    padding: 10px;
+    font-size: 15px;
+}
