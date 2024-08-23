@@ -67,3 +67,8 @@ h2{
     object-fit: cover;
     border-radius: 10px;
 }
+
+.card p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
