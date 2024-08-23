@@ -84,3 +84,7 @@ button{
     align-items: center;
     margin-left: 50px;
 }
+
+button:hover {
+    box-shadow:2px 2px 4px #df9fbf;
+}
