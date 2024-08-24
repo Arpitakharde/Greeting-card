@@ -133,5 +133,10 @@ h3{
       .card-container {
         flex-direction: column;
       }
-      
+
+      .card {
+        width: 90%;
+        height: 280px;
+        margin: 10px;
+      }
   }
