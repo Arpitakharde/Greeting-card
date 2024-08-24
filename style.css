@@ -129,4 +129,9 @@ h3{
       .card-section {
         margin-top: 50px;
       }
+
+      .card-container {
+        flex-direction: column;
+      }
+      
   }
