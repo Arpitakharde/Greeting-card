@@ -103,7 +103,7 @@ h3{
     color: #b30047;
     padding: 3px 0;
     text-align: center;
-    height:120px;
+    height:300px;
     width:100%;
   }
   
@@ -199,6 +199,25 @@ h3{
   }
 }
 
+@media only screen and (min-width: 769px) {
+  .header {
+      height: 140px;
+  }
+  .main {
+      padding: 2%;
+  }
+  .card-section {
+      margin-top: 100px;
+  }
+  .card {
+      width: 210px;
+      height: 320px;
+      margin: 20px;
+  }
+  .card img {
+      height: 150
+  }
+}
 
 
  
