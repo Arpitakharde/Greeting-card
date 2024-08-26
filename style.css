@@ -112,60 +112,64 @@ h3{
     font-size: 15px;
   }
 
-  .prise{
+  #prise{
     margin-left: 80px;
+    
   }
 
-  /*media query for mobile*/
+
   @media only screen and (max-width: 480px) {
     .header {
-      height: 100px;
-      padding-top: 10px;
+        height: 100px;
     }
     .main {
-      padding: 10px;
+        padding: 5%;
     }
     .card-section {
-      margin-top: 50px;
+        margin-top: 30px;
     }
-    .card-container {
-      flex-direction: column;
-      width:100%;
-      height:200%;
-
+    .card-container{
+      height: 550px;
     }
     .card {
-      width: 120%;
-      height: 200%;
-      margin: 10px;
-    }
-
-    .card p{
-        text-align: center;
-        font-size: 10px;
+        width: 160px;
+        height: 250px;
+        margin: 10px;
     }
     .card img {
-   
-       width:65%;
-       height:60%;
-       margin-left: 20%;
+        height: 110px;
     }
+    .card p{
+        font-size: 11.5px;
+    }
+    #prise{
+        padding-left: 3px;
+      
+     }
     button {
-      margin-left: 30%;
-      height:30px;
-      align-items: center;
-    
-    }
-    .footer-bottom {
-      height: 95px;
+        height:25px;
+        font-size: 12px;
+        padding: 5px 5px;
+        align-items: center;
     }
 
+    h3{
+      font-size: 20px;
+    }
+     
     .footer-bottom p{
-       font-size:10px ;
+      font-size: 18px;
     }
-  }
 
-  /*media query for table*/
+    .footer-bottom {
+        height: 300px;
+    }
+}
+
+
+
+
+  /*media query for table
   @media only screen and (max-width: 768px) {
     .header {
       height: 120px;
@@ -208,6 +212,6 @@ h3{
     .footer-bottom p{
       font-size :10px; 
     }
-  }
+  }*/
   
   
