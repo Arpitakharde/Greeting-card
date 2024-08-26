@@ -167,51 +167,38 @@ h3{
 }
 
 
-
-
-  /*media query for table
-  @media only screen and (max-width: 768px) {
-    .header {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .header {
       height: 120px;
-      padding-top: 15px;
-    }
-    .main {
-      padding: 15px;
-    }
-    .card-section {
+  }
+  .main {
+      padding: 3%;
+  }
+  .card-section {
       margin-top: 70px;
-    }
-    .card-container {
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-    .card {
-      width: 33%;
-      height: 69%;
+  }
+  .card {
+      width: 180px;
+      height: 280px;
       margin: 15px;
-    }
-    .card img {
-      height: 147px;
-      width:200px;
-      margin-left:8.5px ;
-    }
-
-    .card p{
-      font-size: 13px;
+  }
+  .card img {
+      height: 130px;
+  }
+  .card p{
+    font-size: 13px;
+  }
+  button {
+      font-size: 15px;
+      padding: 10px 20px;
+      height:26px;
       text-align: center;
-    }
-    button {
-      margin-left: 50px;
-      flex-direction: row;
-      justify-content: center;
-    }
-    .footer-bottom {
-      height: 100px;
-    }
+  }
+  .footer-bottom {
+      height: 290px;
+  }
+}
 
-    .footer-bottom p{
-      font-size :10px; 
-    }
-  }*/
-  
-  
+
+
+ 
